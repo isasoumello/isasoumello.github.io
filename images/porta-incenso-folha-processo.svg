@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-label="Processo de modelagem de porta-incenso folha em argila fria">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f4f8fb" />
+      <stop offset="100%" stop-color="#e6eef5" />
+    </linearGradient>
+    <linearGradient id="clay" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b5d9a9" />
+      <stop offset="100%" stop-color="#79b482" />
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="700" fill="url(#bg2)" />
+  <rect x="70" y="90" width="1060" height="520" rx="36" fill="#ffffff" stroke="#d2deea" stroke-width="4" />
+
+  <g transform="translate(180 175)">
+    <text x="0" y="-22" font-family="Manrope, Arial, sans-serif" font-size="32" fill="#51617a">Etapas da modelagem</text>
+
+    <g transform="translate(0 20)">
+      <circle cx="130" cy="130" r="115" fill="#ecf3e8" />
+      <path d="M70 120c50-62 142-76 194-28c-57 16-127 50-171 110c-21-19-29-51-23-82z" fill="url(#clay)" />
+      <text x="40" y="282" font-family="Manrope, Arial, sans-serif" font-size="24" fill="#56647a">1. Abrir a massa</text>
+    </g>
+
+    <g transform="translate(330 20)">
+      <circle cx="130" cy="130" r="115" fill="#ecf3e8" />
+      <path d="M53 120c40-86 160-96 224-12c-54 30-136 58-196 104c-32-18-47-55-28-92z" fill="url(#clay)" />
+      <path d="M90 135c80 16 138 10 167-13" stroke="#d5ebcf" stroke-width="8" stroke-linecap="round" fill="none" />
+      <text x="18" y="282" font-family="Manrope, Arial, sans-serif" font-size="24" fill="#56647a">2. Marcar nervuras</text>
+    </g>
+
+    <g transform="translate(660 20)">
+      <circle cx="130" cy="130" r="115" fill="#ecf3e8" />
+      <path d="M50 122c52-85 168-97 227-20c-49 43-141 76-196 118c-34-18-51-60-31-98z" fill="url(#clay)" />
+      <circle cx="191" cy="129" r="8" fill="#2d4833" />
+      <rect x="198" y="125" width="104" height="6" rx="3" fill="#5e4334" transform="rotate(-10 198 125)" />
+      <text x="30" y="282" font-family="Manrope, Arial, sans-serif" font-size="24" fill="#56647a">3. Fazer o encaixe</text>
+    </g>
+  </g>
+</svg>
